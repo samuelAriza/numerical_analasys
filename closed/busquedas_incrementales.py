@@ -1,12 +1,13 @@
 import math
 
 def f(x):
-    return math.exp(3*x - 12) + x * math.cos(3*x) - x**2 + 4
+    return x**3 - (1/math.sqrt(2))*(x**2) - 5*x
 
-#Args
-x0 = -10
+
+#Argumentos
+x0 = -4
 delta = 1
-niter = 16
+niter = 20
 
 if f(x0) == 0:
     print(f'{x0} es raiz')
